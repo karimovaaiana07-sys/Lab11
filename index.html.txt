@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Karimova Ayana — World-Class Trial Lawyer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Основной стиль -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon (позже можешь добавить свой файл favicon.png в корень) -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">
+            <span class="logo-mark">KA</span>
+            <div class="logo-text">
+                <span class="logo-name">Karimova Ayana</span>
+                <span class="logo-tagline">World-Class Trial Lawyer</span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#cases">Landmark Cases</a></li>
+                <li><a href="#stats">Track Record</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <h1>Karimova Ayana</h1>
+                <h2>“The Last Word” in High-Stakes Litigation</h2>
+                <p class="hero-lead">
+                    A fearless advocate standing at the edge of the toughest courtrooms on the planet.
+                    Zero losses. Only verdicts that change lives &mdash; and write history.
+                </p>
+                <div class="hero-meta">
+                    <p><strong>Primary Focus:</strong> Criminal defense, corporate crime, high-profile international cases</p>
+                    <p><strong>Location:</strong> Global practice &mdash; from Almaty to New York, London, and Dubai</p>
+                </div>
+                <a href="#contact" class="btn btn-primary">Request a Consultation</a>
+                <a href="#cases" class="btn btn-ghost">See Landmark Cases</a>
+            </div>
+
+            <aside class="hero-photo-wrapper">
+                <!-- Фото 1: сюда поставишь УЖЕ СКАЧАННОЕ изображение, например lawyer1.jpg -->
+                <!-- Временно можно оставить ссылку на Pinterest, но лучше сохранить файл локально -->
+                <figure class="profile-figure">
+                    <img src="img/ayana-lawyer-1.jpg" alt="Portrait of top lawyer Karimova Ayana" class="profile-photo">
+                    <figcaption>In court. No mercy for weak arguments.</figcaption>
+                </figure>
+                <figure class="profile-figure secondary">
+                    <!-- Второе фото -->
+                    <img src="img/ayana-lawyer-2.jpg" alt="Karimova Ayana in a dark law office" class="profile-photo">
+                    <figcaption>Preparing for another impossible case.</figcaption>
+                </figure>
+            </aside>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">Profile</h2>
+                <p class="section-subtitle">
+                    Ruthless in logic. Precise in argument. Calm in chaos.
+                </p>
+            </header>
+
+            <article class="about-article">
+                <div class="about-photo-float">
+                    <!-- Пример использования float -->
+                    <img src="img/ayana-profile.jpg" alt="Ayana working on case files" class="about-photo">
+                </div>
+                <div class="about-text">
+                    <p>
+                        <strong>Karimova Ayana</strong> is a world-class trial lawyer specializing in
+                        high-stakes, life-changing cases. For over <time datetime="2040">20+ years</time>,
+                        she has represented clients in the most complex criminal and corporate trials on
+                        three continents.
+                    </p>
+                    <p>
+                        Nicknamed <mark>“The Devil’s Advocate”</mark> by the media, Ayana is known for
+                        her ability to dismantle any accusation, expose hidden motives, and build airtight
+                        defense strategies under extreme pressure.
+                    </p>
+                    <p>
+                        Her courtroom presence is cold, sharp and controlled. Judges listen. Juries
+                        hesitate to doubt. Prosecutors fear the moment she stands up to cross-examine.
+                    </p>
+
+                    <blockquote class="quote">
+                        “I don’t play with chances. I play with certainty. If I take your case,
+                        I already see the path to victory.”
+                    </blockquote>
+                </div>
+                <div class="clear-fix"></div>
+            </article>
+
+            <div class="about-columns">
+                <section class="card">
+                    <h3>Core Practice Areas</h3>
+                    <ul>
+                        <li>High-profile criminal defense</li>
+                        <li>White-collar &amp; corporate crime</li>
+                        <li>International extradition cases</li>
+                        <li>Political &amp; media-sensitive trials</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3>Clients &amp; Partners</h3>
+                    <p>Ayana works only with a limited number of cases at a time, including:</p>
+                    <ul>
+                        <li>International business leaders</li>
+                        <li>Tech founders &amp; high-net-worth individuals</li>
+                        <li>Corporations facing cross-border investigations</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3>Professional Status</h3>
+                    <p>
+                        <abbr title="Queen's Counsel style senior rank">QC-level</abbr> equivalent in multiple
+                        jurisdictions, guest lecturer at leading law schools, and strategic advisor for
+                        elite legal teams worldwide.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRACK RECORD / STATS -->
+    <section id="stats" class="section section-alt">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">Track Record</h2>
+                <p class="section-subtitle">Numbers that speak louder than any speech.</p>
+            </header>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">0</span>
+                    <span class="stat-label">Cases Lost</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">340+</span>
+                    <span class="stat-label">High-Stakes Cases Won</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">25</span>
+                    <span class="stat-label">Countries Appeared In Court</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">60+</span>
+                    <span class="stat-label">Media-silent settlements</span>
+                </div>
+            </div>
+
+            <div class="progress-wrapper">
+                <h3>Focus on High-Intensity Cases</h3>
+                <p>
+                    Ayana accepts less than <strong>5%</strong> of the requests she receives.
+                    Below is the share of accepted cases per year.
+                </p>
+                <div class="progress-row">
+                    <span class="progress-label">Accepted Clients</span>
+                    <progress value="5" max="100"></progress>
+                    <span class="progress-value">5%</span>
+                </div>
+                <div class="progress-row">
+                    <span class="progress-label">Rejected / Referred</span>
+                    <progress value="95" max="100"></progress>
+                    <span class="progress-value">95%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LANDMARK CASES (TABLE + TIMELINE) -->
+    <section id="cases" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">Landmark Cases</h2>
+                <p class="section-subtitle">
+                    A short view into a long history of impossible victories.
+                </p>
+            </header>
+
+            <div class="cases-layout">
+                <section class="cases-table-wrapper">
+                    <h3>Selected High-Profile Trials</h3>
+                    <table class="cases-table">
+                        <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Case Type</th>
+                            <th>Role</th>
+                            <th>Outcome</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><time datetime="2037">2037</time></td>
+                            <td>International corporate crime</td>
+                            <td>Lead defense</td>
+                            <td>Full acquittal &amp; public apology</td>
+                        </tr>
+                        <tr>
+                            <td><time datetime="2033">2033</time></td>
+                            <td>Political criminal trial</td>
+                            <td>Chief strategist</td>
+                            <td>Case dismissed before trial</td>
+                        </tr>
+                        <tr>
+                            <td><time datetime="2030">2030</time></td>
+                            <td>Cross-border extradition</td>
+                            <td>Defense counsel</td>
+                            <td>Extradition denied, precedent set</td>
+                        </tr>
+                        <tr>
+                            <td><time datetime="2028">2028</time></td>
+                            <td>Tech founder criminal investigation</td>
+                            <td>Lead attorney</td>
+                            <td>Charges dropped, company saved</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <aside class="timeline-wrapper">
+                    <h3>Career Timeline</h3>
+                    <ul class="timeline">
+                        <li>
+                            <span class="timeline-year">2025</span>
+                            <p>Graduated with honors, already known for brutal moot court performances.</p>
+                        </li>
+                        <li>
+                            <span class="timeline-year">2030</span>
+                            <p>First international case &mdash; wins against a global prosecution team.</p>
+                        </li>
+                        <li>
+                            <span class="timeline-year">2035</span>
+                            <p>Recognized as one of the most dangerous defense lawyers in Eurasia.</p>
+                        </li>
+                        <li>
+                            <span class="timeline-year">2040</span>
+                            <p>Opens a boutique firm taking only the toughest, high-stakes trials.</p>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">Contact &amp; Representation</h2>
+                <p class="section-subtitle">
+                    Serious cases only. If your situation is not ordinary &mdash; describe it precisely.
+                </p>
+            </header>
+
+            <div class="contact-layout">
+                <section class="contact-details card">
+                    <h3>Direct Contacts</h3>
+                    <address>
+                        <p><strong>Email:</strong>
+                            <a href="mailto:karimovaayana07@gmail.com">karimovaayana07@gmail.com</a>
+                        </p>
+                        <p><strong>Phone / WhatsApp:</strong>
+                            <a href="tel:+77073796956">+7 707 379 69 56</a>
+                        </p>
+                    </address>
+
+                    <h3>Social Profiles</h3>
+                    <ul class="social-list">
+                        <li>
+                            <a href="https://instagram.com/ayana.verdict" target="_blank" rel="noopener">
+                                Instagram @ayana.verdict
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ayana-karimova-verdict" target="_blank" rel="noopener">
+                                LinkedIn /in/ayana-karimova-verdict
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/devilsadvocate_ay" target="_blank" rel="noopener">
+                                X (Twitter) @devilsadvocate_ay
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="contact-note">
+                        Please note: submitting this form does not create an attorney-client relationship.
+                    </p>
+                </section>
+
+                <section class="contact-form card">
+                    <h3>Request a Case Review</h3>
+                    <form action="#" method="post">
+                        <div class="form-row">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your full legal name">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required placeholder="you@example.com">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="phone">Phone / WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+7...">
+                        </div>
+
+                        <div class="form-row">
+                            <label for="case-type">Type of Case</label>
+                            <select id="case-type" name="case-type">
+                                <option value="criminal">Criminal defense</option>
+                                <option value="corporate">Corporate crime</option>
+                                <option value="extradition">Extradition</option>
+                                <option value="investigation">Ongoing investigation</option>
+                                <option value="other">Other / Not sure</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="message">Case Summary</label>
+                            <textarea id="message" name="message" rows="5"
+                                      placeholder="Briefly explain the situation, deadlines, and what is at risk."
+                                      required></textarea>
+                        </div>
+
+                        <div class="form-row form-row-inline">
+                            <label for="urgency">Urgency level</label>
+                            <input type="range" id="urgency" name="urgency" min="1" max="10" value="7">
+                        </div>
+
+                        <div class="form-row">
+                            <button type="submit" class="btn btn-primary">Send Request</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; <time datetime="2050">2050</time> Karimova Ayana. All rights reserved.</p>
+        <p class="footer-meta">
+            This website is a personal legal portfolio built for educational purposes.
+        </p>
+    </div>
+</footer>
+</body>
+</html>
